@@ -1,4 +1,4 @@
-# Py-qrcode-creator
+# Python QR-Code Creator
 
 Generate qr codes in python
 
