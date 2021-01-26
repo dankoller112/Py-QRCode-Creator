@@ -4,7 +4,7 @@ from PIL import Image
 # Create qr-code and configure size
 qr = qrcode.QRCode()
 # qr = qrcode.QRCode(box_size=50, border=2) # Can be used if size needs to be adjusted
-qr.add_data("*Beliebigen Inhalt einfügen*")
+qr.add_data("*Insert any text you desire*")
 
 # Configure output and color schemes
 img = qr.make_image(fill_color="black", back_color="white")
